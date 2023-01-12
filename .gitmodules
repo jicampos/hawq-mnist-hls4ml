@@ -1,0 +1,3 @@
+[submodule "hawq"]
+	path = hawq
+	url = https://github.com/Zhen-Dong/HAWQ
