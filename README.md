@@ -4,10 +4,13 @@ This project implements a small CNN in HAWQ for quantization aware training, and
 
 ## Setup
 
-Clone repo and HAWQ submodule
+Clone project, HAWQ submodule and create working environment
 
 ```bash
 git clone --recursive https://github.com/jicampos/hawq-mnist-hls4ml.git
+cd hawq-mnist-hls4ml
+conda env create -f environment.yml
+conda activate mnist-env
 ```
 
 ## Model Summary
