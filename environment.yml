@@ -1,0 +1,23 @@
+name: mnist-env
+channels:
+  - pytorch
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch-cpu
+  - pip 
+  - pip:
+    - jupyter==1.0.0
+    - pydot==1.4.2
+    - graphviz==0.19.1
+    - torchaudio==0.12.1
+    - torchvision==0.13.1
+    - torchinfo==1.7.1
+    - git+https://github.com/fastmachinelearning/qonnx.git
+    - git+https://github.com/fastmachinelearning/hls4ml.git@ingest-qonnx-master
+    - numpy
+    - matplotlib
+    - netron
+    - tqdm 
+    - h5py
